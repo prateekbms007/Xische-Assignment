@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Booking DDLJ movie",
+        "description": "",
+        "id": "ticket-booking-functionality-for-ddlj-movie;booking-ddlj-movie",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12281537227,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch BookMyShow application",
+            "match": {
+              "location": "AssignmentSteps.launchApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1406818513,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select Prod Environment",
+            "match": {
+              "location": "AssignmentSteps.selectProdEnv()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9389155770,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tap On Search Icon",
+            "match": {
+              "location": "AssignmentSteps.tapSearchIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3137651874,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter movie title in the Search box",
+            "match": {
+              "location": "AssignmentSteps.searchMovie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2265701403,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select searched movie",
+            "match": {
+              "location": "AssignmentSteps.selectMovie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5623059572,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Tap on Book Tickets Button",
+            "match": {
+              "location": "AssignmentSteps.TapBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1467513853,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Date",
+            "match": {
+              "location": "AssignmentSteps.selectDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1980091436,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select Show time",
+            "match": {
+              "location": "AssignmentSteps.selectShowTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1263985017,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Accept Term \u0026 Conditions",
+            "match": {
+              "location": "AssignmentSteps.acceptTnC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048255656,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select seat count",
+            "match": {
+              "location": "AssignmentSteps.selectSeatCount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 930043104,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Tap on Select Seats Button",
+            "match": {
+              "location": "AssignmentSteps.selectSeatButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1629803542,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Select seats",
+            "match": {
+              "location": "AssignmentSteps.selectSeat()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1389943539,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Tap on Pay Button",
+            "match": {
+              "location": "AssignmentSteps.tapPayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11040846101,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Net Banking",
+            "match": {
+              "location": "AssignmentSteps.selectNetbanking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784964692,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Select HDFC Bank",
+            "match": {
+              "location": "AssignmentSteps.selectBank()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12378361189,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Validate User is on HDFC Netbanking page",
+            "match": {
+              "location": "AssignmentSteps.validateBank()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ticket booking functionality for DDLJ movie",
+    "description": "",
+    "id": "ticket-booking-functionality-for-ddlj-movie",
+    "keyword": "Feature",
+    "uri": "assignment.feature"
+  }
+]

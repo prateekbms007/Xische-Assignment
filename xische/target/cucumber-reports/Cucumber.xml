@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="70.017732">
+<testcase classname="Ticket booking functionality for DDLJ movie" name="Booking DDLJ movie" time="70.017732">
+<system-out><![CDATA[Given Launch BookMyShow application.........................................passed
+And Select Prod Environment.................................................passed
+When Tap On Search Icon.....................................................passed
+And Enter movie title in the Search box.....................................passed
+And Select searched movie...................................................passed
+And Tap on Book Tickets Button..............................................passed
+And Select Date.............................................................passed
+And Select Show time........................................................passed
+And Accept Term & Conditions................................................passed
+And Select seat count.......................................................passed
+And Tap on Select Seats Button..............................................passed
+And Select seats............................................................passed
+And Tap on Pay Button.......................................................passed
+And Select Net Banking......................................................passed
+And Select HDFC Bank........................................................passed
+Then Validate User is on HDFC Netbanking page...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
